@@ -1,3 +1,5 @@
+# 32bit build script
+
 getfile() {
     if [ ! -f ./src/$1 ]; then
         wget -O ./src/$1 $2
